@@ -1,0 +1,161 @@
+* {
+  font-family: "Trebuchet MS";
+}
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-transform: uppercase;
+  color: rgb(70, 165, 255);
+}
+button {
+  background-color: rgb(70, 165, 255);
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 12px;
+  border: 0px;
+  margin-top: 20px;
+}
+label {
+  margin-top: 10px;
+  float: left;
+  text-align: left;
+  width: 100%;
+}
+input {
+  padding: 6px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #f8f8f8;
+  border: 2px solid #ccc;
+  outline-color: rgb(70, 165, 255);
+}
+div {
+  width: 100%;
+  height: auto;
+}
+.base {
+  width: 400px;
+  height: auto;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #ededed;
+}
+* {
+  font-family: "Trebuchet MS";
+}
+h1 {
+  text-transform: uppercase;
+  color: rgb(70, 165, 255);
+}
+
+table {
+  border: solid 1px #ddeeee;
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 70%;
+  margin: 10px auto 10px auto;
+}
+table thead th {
+  background-color: #ddefef;
+  border: solid 1px #ddeeee;
+  color: #336b6b;
+  padding: 10px;
+  text-align: left;
+  text-shadow: 1px 1px 1px #fff;
+  text-decoration: none;
+}
+table tbody td {
+  border: solid 1px #ddeeee;
+  color: #333;
+  padding: 10px;
+  text-shadow: 1px 1px 1px #fff;
+}
+a {
+  background-color: rgb(70, 165, 255);
+  color: #fff;
+  padding: 10px;
+  text-decoration: none;
+  font-size: 12px;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+.topnav a.red {
+  background-color: rgb(34, 148, 224);
+  color: white;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {
+    position: relative;
+  }
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 20%;
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+img {
+  border-radius: 5px 5px 0 0;
+}
+
+.container {
+  padding: 2px 16px;
+}
